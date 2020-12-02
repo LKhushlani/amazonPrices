@@ -42,7 +42,7 @@ def send_email():
     server.starttls()
     server.ehlo()
 
-    server.login('lavinakhushlani@gmail.com', 'pfngqindymxsokjc')
+    server.login('lavinakhushlani@gmail.com', 'your pwd from 2step authentication')
 
     subject = 'Price dropped!'
     body = 'price dropped check the link ' + URL
